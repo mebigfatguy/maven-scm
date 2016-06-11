@@ -398,6 +398,6 @@ public class CommandParameters
      */
     public void remove( CommandParameter parameter )
     {
-        parameters.remove( parameter );
+        parameters.remove( parameter.getName() );
     }
 }
